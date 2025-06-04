@@ -1,0 +1,91 @@
+/* Custom Filament Admin UI */
+
+/* Layout background */
+body, .fi-main {
+    background: #f6f8fa !important;
+}
+
+/* Sidebar */
+.fi-sidebar {
+    background: #101a2c !important;
+    color: #fff !important;
+}
+.fi-sidebar .fi-sidebar-item--active {
+    background: #1a233a !important;
+    color: #ffb300 !important;
+    border-radius: 8px;
+}
+.fi-sidebar .fi-sidebar-item {
+    border-radius: 8px;
+    margin-bottom: 4px;
+    transition: background 0.2s;
+}
+.fi-sidebar .fi-sidebar-item:hover {
+    background: #18213a !important;
+}
+
+/* Main content card/box */
+.fi-section, .fi-card, .fi-main > .fi-container > .fi-section {
+    background: #fff !important;
+    border-radius: 18px !important;
+    box-shadow: 0 2px 16px #0002;
+    padding: 2.5rem 2rem !important;
+    margin-bottom: 2rem;
+}
+
+/* Page header */
+.fi-header {
+    background: transparent !important;
+    padding: 2rem 0 1rem 0 !important;
+    border-bottom: none !important;
+}
+.fi-header h1, .fi-header-title {
+    font-size: 2.1rem !important;
+    font-weight: 700 !important;
+    color: #222 !important;
+    letter-spacing: 0.5px;
+}
+
+/* Table */
+.fi-table {
+    border-radius: 18px !important;
+    overflow: hidden;
+    background: #fff !important;
+    box-shadow: 0 2px 12px #0001;
+}
+.fi-table thead {
+    background: #101a2c !important;
+    color: #fff !important;
+}
+.fi-table th, .fi-table td {
+    font-size: 1.08rem;
+    padding: 1.1rem 1rem;
+}
+.fi-table tbody tr {
+    transition: background 0.15s;
+}
+.fi-table tbody tr:hover {
+    background: #f0f4fa !important;
+}
+
+/* Search Bar */
+.fi-search-bar {
+    border-radius: 12px !important;
+    background: #fff !important;
+    color: #222 !important;
+    box-shadow: 0 1px 6px #0001;
+    border: 1.5px solid #e0e0e0 !important;
+    padding: 0.7rem 1.2rem !important;
+    font-size: 1.08rem !important;
+}
+
+/* Action Buttons */
+.fi-action-button {
+    border-radius: 8px !important;
+    font-weight: 500;
+    transition: background 0.15s, color 0.15s;
+}
+.fi-action-button:hover {
+    filter: brightness(0.95);
+    box-shadow: 0 2px 8px #0001;
+} 
